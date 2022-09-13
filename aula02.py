@@ -135,31 +135,31 @@ Exercício:
     Finais 7 e 8: Quinta
     Finais 9 e 0: Sexta"""
 
-# placa = (input("Informe a placa: "))
-# val= int(placa[-1]) if len(placa) == 4 else print("PLACA INCORRETA")
-# match(val):
-#     case 1 :
-#         print("SEGUNDA")
-#     case 2:
-#         print("SEGUNDA")
-#
-#     case 3:
-#         print("TERÇA")
-#     case 4:
-#         print("TERÇA")
-#
-#     case 5:
-#         print("QUARTA")
-#     case 6:
-#         print("QUARTA")
-#
-#     case 7:
-#         print("QUINTA")
-#     case 8:
-#         print("QUINTA")
-#
-#     case 9:
-#         print("SEXTA")
-#     case 0:
-#         print("SEXTA")
-#
+placa = (input("Informe a placa: "))
+val= int(placa[-1]) if len(placa) == 4 else print("PLACA INCORRETA")
+match(val):
+    case 1 :
+        print("SEGUNDA")
+    case 2:
+        print("SEGUNDA")
+
+    case 3:
+        print("TERÇA")
+    case 4:
+        print("TERÇA")
+
+    case 5:
+        print("QUARTA")
+    case 6:
+        print("QUARTA")
+
+    case 7:
+        print("QUINTA")
+    case 8:
+        print("QUINTA")
+
+    case 9:
+        print("SEXTA")
+    case 0:
+        print("SEXTA")
+
